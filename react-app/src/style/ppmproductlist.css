@@ -1,0 +1,92 @@
+.outerdiv{
+    border:1px solid grey;
+    width:700px;
+    height:600;
+    margin-left:20px;
+    padding-right:20px;
+    overflow-y: scroll;
+}
+h2{
+   margin-left:20px; 
+}
+p{
+    text-align:left;
+    font-weight: 900px;
+    margin-left:20px;
+}
+.imagestyle{
+    height: 150px;
+    width: 150px;
+}
+.productlistouterdiv{
+  
+   display: flex;
+   align-items: center;
+   justify-content: right;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-content: flex-end;
+    
+}
+.productouterdiv{
+    border:1px solid grey;
+    margin-top:30px;
+
+    margin-left:20px;
+    width:200px;
+    height:350px;
+    color:rgb(68, 68, 67);
+    justify-content: center;
+    
+}
+ .editproductlistbuttonstyle {
+    background-color:rgb(230, 91, 10);
+    height:25px;
+    width:150px;
+    margin-top:30px;
+    font-size: 17px;
+    color:rgb(68, 68, 67);
+    margin-left:10px;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    border:1px solid rgb(29, 28, 28);
+}
+
+.deletebuttonstyle {
+    background-color:rgb(177, 33, 33);
+    height:25px;
+    width:150px;
+    margin-top:30px;
+    font-size: 17px;
+    color:rgb(68, 68, 67);
+    margin-left:10px;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    border:1px solid rgb(29, 28, 28);
+}
+.outerproductbuttondiv{
+    margin-left:20px;
+    margin-bottom: 10px;
+}
+
+.buttonproductdiv{
+    display:flex;
+    margin-bottom: 0px;
+    padding:0px;
+    align-content: flex-start;
+    
+}
+.titlediv{
+    color:rgb(68, 68, 67);
+    margin-top:20px;
+
+
+}
+.pricediv{
+    color:rgb(68, 68, 67);
+    margin-top:20px;
+    
+
+}

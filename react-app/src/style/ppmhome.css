@@ -1,0 +1,16 @@
+.outerdiv{
+    border:1px solid grey;
+    width:700px;
+    height:600px;
+    margin-left:20px;
+}
+h2{
+   margin-left:20px; 
+   color:rgb(68, 68, 67);
+}
+p{
+    text-align:left;
+    font-weight: 900px;
+    margin-left:20px;
+    color:rgb(68, 68, 67);
+}
