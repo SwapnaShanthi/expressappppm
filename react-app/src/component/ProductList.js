@@ -54,22 +54,7 @@ class ProductList extends Component {
                     </div>)
          
     })
-   const displaytest=()=>{
-       for(let i=0;i<this.props.productlist.length;i=i+3){
-         for (let j=i;j<3;j++){
-          return (<div className="productouterdiv" >
-          <div><img className="imagestyle" src={this.props.productlist[j].productdetails.imageurl} alt="image" ></img></div>
-          <div className="titlediv">{this.props.productlist[j].productdetails.title}</div>
-          <div className="pricediv"> $ {this.props.productlist[j].productdetails.price}</div>
-          <div className="outerproductbuttondiv">
-          <div className="buttonproductdiv"><Link className="editproductlistbuttonstyle" to={`/productedit/${ this.props.productlist[j].id }`}>Edit</Link></div>
-          <div className="buttonproductdiv"><Link className="deletebuttonstyle" to={`/productlist`} onClick={()=>this.deleteProduct(this.props.productlist[j].id)}>Delete</Link></div>
-          </div>
-      </div>)
-         }
-
-       }
-    }
+   
     return (
       <div className="outerdiv">
       <div className="productlistouterdiv"> 
